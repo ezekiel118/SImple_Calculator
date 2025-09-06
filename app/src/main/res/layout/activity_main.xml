@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andorid="http://schemas.android.com/apk/res-auto"
+    xmlns:adroid="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/number1_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        andorid:textSize="30sp"
+        android:text=""
+        android:hint="Enter first number:"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/number2_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        andorid:textSize="30sp"
+        android:text=""
+        android:hint="Enter second number:"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_marginTop="10dp"
+        android:layout_width="900dp"
+        android:layout_height="70dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/subtract_button"
+        android:layout_marginTop="10dp"
+        android:layout_width="900dp"
+        android:layout_height="70dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/multiply_button"
+        android:layout_marginTop="10dp"
+        android:layout_width="900dp"
+        android:layout_height="70dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/divide_button"
+        android:layout_marginTop="10dp"
+        android:layout_width="900dp"
+        android:layout_height="70dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:text="/" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="900dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="Result will be shown here: "
+        android:color="#BC1414" />/>
+
+
+</LinearLayout>

@@ -1,7 +1,6 @@
 package com.example.simple_calculator;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -43,8 +42,9 @@ public class myjavacalculatorMainActivity extends AppCompatActivity {
         divideButton.setOnClickListener(v -> calculate("/"));
     }
 
+    //operators
     private void calculate(String operator) {
-        int number1 = parseInt(number1EditText.getText().toString());
+       int number1 = parseInt(number1EditText.getText().toString());
         int number2 = parseInt(number2EditText.getText().toString());
         int result = 0;
 
